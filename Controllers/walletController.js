@@ -37,7 +37,6 @@ exports.getWalletInfo = async (req, res) => {
   }
 };
 
-// Add funds to wallet
 exports.addFunds = async (req, res) => {
   try {
     const { amount, description } = req.body;

@@ -6,7 +6,7 @@ const {
   getWalletInfo,
   addFunds,
   getTransactionHistory
-} = require('../controllers/walletController');
+} = require('../Controllers/userController');
 
 // Enable authentication middleware
 router.use(isAuthenticated);
